@@ -39,6 +39,12 @@ namespace AccountingApp.Controllers
             .ToArray();
         }
 
+
+        public  void Test()
+        {
+
+        }
+
         [HttpGet]
         [Route("All")]
         public object All()
