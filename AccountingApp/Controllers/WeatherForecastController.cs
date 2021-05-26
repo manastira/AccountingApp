@@ -41,7 +41,6 @@ namespace AccountingApp.Controllers
 
         [HttpGet]
         [Route("All")]
-
         public object All()
         {
             //var countryResult = DB.searchCountryByName(keyword).ToList();
